@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --import tsx ./node_modules/.bin/knex"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
